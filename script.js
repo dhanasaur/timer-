@@ -8,7 +8,7 @@ function startTimer() {
   if (isNaN(sec) || sec < 0 || sec > 59) sec = 0;
   let totalSeconds = min * 60 + sec;
   if (totalSeconds <= 0) {
-    alert("Please enter a valid time.");
+    alert("enter a valid time");
     return;
   }
   clearInterval(timer);
